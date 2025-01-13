@@ -1,0 +1,218 @@
+
+.active{
+  color: red;
+}
+.headerContainer{
+  text-align: center;
+ background-image: url(https://i.imgur.com/bLxcjh3.png);
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.TitleMenu{
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: red ;
+}
+
+.contenedor{
+  background-color: rgb(184, 212, 170);
+  width: 100%;
+  height: 500px;
+  border-radius:  5px;
+}
+
+ul{
+ list-style: none;
+ 
+}
+ul li{
+  margin: 20px;
+  font-size: 20px;
+  display: inline-block;
+
+  
+}
+.contenedorTres{
+ background-color: aquamarine;
+}
+.containerFooter{
+  background-color: aquamarine;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  border: pink solid;
+
+}
+/*footer*/
+.containerFooter{
+  background-color: rgb(132, 186, 105);
+  height: 150px;
+  text-align: center;
+}
+
+.footer{
+  display: grid;
+  grid-template-areas:
+  'Uno Dos Tres';
+}
+.NombrePag{
+  grid-area: Uno;
+  align-items: center;
+  justify-content: center;
+}
+.Inf{
+  grid-area: Dos;
+}
+.Enlaces{
+  grid-area: Tres;
+  list-style: none;
+  display:inline-block ;
+}
+
+/*header style*/
+.item1 { 
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: 200px;  
+  justify-content: center;
+  align-items: center;
+}
+.log{
+ width: 50px;
+ height: 20px;
+ border-radius: 10px;
+}
+.registro{
+  width: 59px;
+ height: 20px;
+  border-radius: 10px;
+
+}
+
+.item2 {
+   grid-area: menu; 
+  }
+
+.item3 {
+  display: flex;
+   grid-area: main; 
+   align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    height: 150px; 
+   width: 150px;
+  }
+.item5 {
+  color: white;
+   grid-area: footer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+.grid-container {
+
+display: grid;
+
+grid-template-areas:
+
+'footer main main header header';
+
+gap: 5px;
+
+
+
+
+
+}
+
+.grid-container > div {
+
+
+
+text-align: center;
+
+
+
+font-size: 30px;
+}
+
+/*pages*/
+
+.contPagUno{
+  background-color: rgb(179, 209, 164);
+  height: 500px;
+  text-align: center;
+}
+/*page sushi*/
+.ContainerSushi{
+  background-color: rgb(179, 209, 164);
+  display: grid;
+  grid-template-areas:
+  'Uno Dos Tres';
+  
+}
+.imgSushi1{
+  grid-area:  Uno;
+}
+.imgSushi2{
+  grid-area: Dos;
+}
+.imgSushi3{
+  grid-area: Tres;
+}
+
+
+
+.contPagDos{
+  background-color:(179, 209, 164);
+  height: 500px;
+  text-align: center;
+}
+/*page oni*/
+.ContainerOni{
+  background-color: rgb(179, 209, 164);
+  display: grid;
+  grid-template-areas:
+  'Uno Dos Tres';
+}
+.imgOni1{
+  grid-area: Uno;
+}
+.imgOni2{
+  grid-area: Dos;
+}
+.imgOni3{
+  grid-area: Tres;
+}
+
+.contPagTres{
+  background-color: rgb(179, 209, 164);
+  height: 500px;
+  text-align: center;
+}
+/*page oni*/
+.ContainerBebidas{
+  background-color: rgb(179, 209, 164);
+  display: grid;
+  grid-template-areas:
+  'Uno Dos Tres';
+}
+.imgBebida1{
+  grid-area: Uno;
+}
+.imgBebida2{
+  grid-area: Dos;
+}
+.imgBebida3{
+  grid-area: Tres;
+}
